@@ -36,7 +36,7 @@ function injection() {
         };
       }
       var s = document.createElement('script');
-      s.src = 'https://translate.google.com/translate_a/element.js?cb=' +
+      s.src = 'https://translate.google.cn/translate_a/element.js?cb=' +
               encodeURIComponent(cbId) + '&client=tee&hl=' + userLang;
       document.getElementsByTagName('head')[0].appendChild(s);
     }
