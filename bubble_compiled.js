@@ -4730,7 +4730,7 @@
             window.selection = a;
             a = new Ch("gtx", "https://translate.googleapis.com");
             var e = chrome.i18n.getUILanguage ? chrome.i18n.getUILanguage() : "en";
-            d = d ? d : "auto";
+            d = d ? d : "en";
             var f = Cg(Gg);
             c = new U("source=" + c);
             var g = window.selection,
