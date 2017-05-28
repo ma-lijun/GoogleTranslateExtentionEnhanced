@@ -4599,7 +4599,7 @@
             }
         },
         oi = function(a) {
-            a.j() && qi(a.c, a)
+            a.j && a.j() && qi(a.c, a)
         },
         ni = function() {
             this.B = this.A() + "-standard";
